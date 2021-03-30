@@ -110,11 +110,11 @@ element normal.urgent {
 }
 element normal.active {
     background-color: 			@green;
-    text-color:       			black;
+    text-color:       			@fg;
 }
 element selected.normal {
-    background-color: 			@fg;
-    text-color:       			black;
+    background-color: 			@bg-alt;
+    text-color:       			@fg;
 }
 element selected.urgent {
     background-color: 			transparent;
