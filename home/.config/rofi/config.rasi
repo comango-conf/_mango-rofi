@@ -2,7 +2,6 @@
 
 configuration {
   show-icons:         true;
-  icon-theme:         "candy-icons";
-  modi:               "run,drun,combi";
+  modi:               "run,drun,ssh"; 
   combi-modi:         "run,drun";
 }

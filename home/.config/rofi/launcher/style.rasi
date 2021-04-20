@@ -16,7 +16,7 @@ configuration {
     padding:                0;
     fixed-num-lines:        true;
     show-icons:             true;
-    icon-theme:             "candy-icons";
+    icon-theme:             "Font Awesome 5 Pro Regular";
     sidebar-mode:           true;
     separator-style:        "none";
     hide-scrollbar:         true;
@@ -29,13 +29,13 @@ configuration {
     combi-hide-mode-prefix: false;
     display-window:         " ";
     display-windowcd:       " ";
-    display-run:            " ";
-    display-ssh:            " ";
-    display-drun:           " ";
+    display-run:            " ";
+    display-ssh:            " ";
+    display-drun:           " ";
     display-combi:          " ";
 }
 
-@import "black_launcher.rasi"
+@import "launcher.rasi"
 
 * {
    background-color:        #00000000;
