@@ -2,6 +2,6 @@
 
 configuration {
   show-icons:         true;
-  modi:               "run,drun,ssh"; 
+  modi:               "run,drun,ssh,window";
   combi-modi:         "run,drun";
 }

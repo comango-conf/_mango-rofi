@@ -24,7 +24,7 @@ configuration {
     fullscreen:             false;
     fake-transparency:      false;
     scroll-method:          0;
-    window-format:          "[{w}] ··· {c} ···   {t}";
+    window-format:          "[{w}] {t}";
     click-to-exit:          true;
     show-match:             false;
     combi-hide-mode-prefix: false;
@@ -111,7 +111,7 @@ element normal.urgent {
     text-color:       @red;
 }
 element normal.active {
-    background-color: @green;
+    background-color: @ac;
     text-color:       @fg;
 }
 element selected.normal {
